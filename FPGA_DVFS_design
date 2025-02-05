@@ -1,3 +1,9 @@
 DVS unit architecture:
 It has three components 1) MicroBlaze (MB) processor, 2) a register file using a dual port Ram (DPRAM) 3) I2C IP core
 All three are connected to local Advanced eXtensible Interface (AXI) bus.
+It has full capabilities of power rails connected to the PMBus.
+MB processor is mainly  because of the relatively complexity of I2C communications that means that a state machine implementation will
+be  complex to design and mantain for different boards with slight PMBus implementation differences.
+
+
+Some of the FPGA board.
