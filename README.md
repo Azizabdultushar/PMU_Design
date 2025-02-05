@@ -61,9 +61,4 @@ A **Power Management Unit (PMU)** is a critical component in modern electronic s
    - **Overcurrent Protection (OCP)**: To prevent excessive current from damaging components.
    - **Overtemperature Protection (OTP)**: To shut down or throttle the system if temperatures rise above safe levels.
 
----
-
-## PMU Block Diagram Example
-
-Here’s a simplified block diagram for a typical PMU design:
 
