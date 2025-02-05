@@ -1,1 +1,3 @@
-
+DVS unit architecture:
+It has three components 1) MicroBlaze (MB) processor, 2) a register file using a dual port Ram (DPRAM) 3) I2C IP core
+All three are connected to local Advanced eXtensible Interface (AXI) bus.
